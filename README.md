@@ -1,5 +1,5 @@
 # Knight_shortest_path
-Finds the minimum number of steps for the knight to reach given destination
+Finds the minimum number of steps for the knight to reach given destination \n
 Input:
 N = 10 (board limit 10x10)
 x1 = 1
