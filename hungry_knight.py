@@ -41,10 +41,10 @@ def solution():
     position = Point(x1, y1, 0)
     destination = Point(x2, y2, 0)
 
-    if not(1 <= position.x <= N) and not(1 <= position.y <= N):
+    if not(1 <= position.x <= N) or not(1 <= position.y <= N):
         print("Position out of reach")
 
-    if not(1 <= destination.x <= N) and not(1 <= destination.y <= N):
+    if not(1 <= destination.x <= N) or not(1 <= destination.y <= N):
         print("Destination out of reach")
 
     print(bfs(position, destination, N))
